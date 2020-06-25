@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+    <head>
+        <title>
+            Bus Ticket Booking at Lowest Fare | Sultan Travels
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/sultan.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <link rel="icon" type="images/jpg" href="assets/images/fav.png">
+        <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel = "stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section id="contactdetails">
+            <div class=" container-fluid container-expand-lg d-block">    
+                <div class="row">
+                    <div class="col-lg-12 back">
+                        <div class="row">
+                            <div class="col-lg-3">
+
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12 py-2">
+                                        <h7 class="img-responsive"><img src="assets/images/phoneicon.png" class="mr-1"><span class="phone"> +91 082962 74414.  082962 74415, 99456 82448. 94499 06606 </span></h7>
+                                    </div>
+                                    <div class="col-lg-2 col-sm-12"></div>
+                                    <div class="col-lg-3 col-sm-12 py-2">
+                                        <h7 class="img-responsive mr-2"><a class="login" href="index.html">Login</a><img src="assets/images/login.png" class="mx-1"></h7> |
+                                        <h7 class="img-responsive ml-2"><a class="login" href="index.html">Register</a> <img src="assets/images/alogin.png" class="ml-1"></h7>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <img src="assets/images/logo.png" class="logo">
+                            </div>
+                            <div class="col-lg-9 shape1">
+                                <nav class="navbar navbar-expand-xl">
+                                    <button type="button" class="navbar-toggler bg-white" data-toggle="collapse" data-target="#navbarNav">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse" id="navbarNav">
+                                        <ul class="navbar-nav mx-auto">
+                                            <li class="nav-item">
+                                                <a class="nav-link pl-2" style="color:white" href="#">Home </a>
+                                            <li class="nav-item pl-2">
+                                                <a class="nav-link" style="color:white" href="#">Print Ticket </a>
+                                            </li>
+                                            <li class="nav-item pl-2">
+                                                <a class="nav-link" style="color:white" href="#"> Edit Ticket</a>
+                                            </li>
+                                            <li class="nav-item pl-2">
+                                                <a class="nav-link" style="color:white" href="#"> Cancel Ticket</a>
+                                            </li>
+                                            
+                                            <li class="nav-item dropdown pl-2" data-toggle="dropdown">
+                                                <a class="nav-link dropdown-toggle" style="color:white" href="#">Contact</a>
+                                                <div class="dropdown-menu bg-white">
+                                                    <a class="dropdown-item" href="#">Mobile</a>
+                                                    <a class="dropdown-item" href="#">Whatsapp</a>
+                                                    <a class="dropdown-item" href="#">Mail</a>
+                                                </div>
+                                            </li>
+                                            <li class="nav-item pl-2">
+                                                <a class="nav-link" style="color:white" href="#"> Feedback </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('.slider').bxSlider();
+            });
+        </script>
+
+        <div class="slider_content">            
+            <div class="bxslider">
+                <div><img src="assets/images/sliders.png" width="100%"></div>
+                <div><img src="assets/images/sliders.png" width="100%"></div>
+                <div><img src="assets/images/sliders.png" width="100%"></div>
+            </div>
+            <div class="search" id="cb">                
+                <div class="col-lg-12"> 
+                    <div class="row">
+                        <div class="font1">
+                            <div class="col-lg-12 mt-4">
+                                <select class="browser-default custom-select" id="select">
+                                    <option value="" disabled="" selected="">FROM </option>
+                                    <option value="1">Chennai</option>
+                                    <option value="2">Coimbatore</option>
+                                    <option value="3">Banglore</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-12 mt-1 swapicon">
+                                <img src="assets/images/swap.png" class="img-responsive float-right">
+                            </div>
+                            <div class="col-lg-12 mt-2 mb-2">
+                                <select class="browser-default custom-select" id="select">
+                                    <option value="#" disabled="" selected="">TO</option>
+                                    <option value="1">Chennai</option>
+                                    <option value="2">Coimbatore</option>
+                                    <option value="3">Banglore</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-12 mb-2">
+                                <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+                                <script>
+            $(function () {
+                $("#datepicker-13").datepicker();
+                $("#datepicker-14").datepicker();
+            });
+                                </script>
+                                <input type="text" id="datepicker-13" class="form-control" placeholder="Journey Date" style="border-radius: 50px;
+                                       border: 3px solid;
+                                       border-color: maroon;"> 
+                                <i class="fa fa-calendar float-right cal" id="datepicker-13"></i>
+                            </div>
+
+                            <div class="col-lg-12 mb-2"> 
+                                <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+                                <script>
+            $(function () {
+                $("#datepicker-13").datepicker();
+                $("#datepicker-14").datepicker();
+            });
+                                </script>
+                                <input type="text" id="datepicker-14" class="form-control" placeholder="Return Date" style="border-radius: 50px;
+                                       border: 3px solid;
+                                       border-color: maroon;"> 
+                                <i class="fa fa-calendar float-right cal" id="datepicker-14"></i>
+                            </div>
+
+                            <div class="col-lg-12 text-center mb-3">
+                                <a href="" type="submit" class="btn">Search</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="aboutus">
+            <div class="container">
+                <div class="row py-4">
+                    <div class="col-lg-6"></div>
+                    <div class="col-lg-6">
+                        <div class="row ml-1">
+                            <P class="mt-2 text-right" style="font-size:20px;">
+                                <span class="name"> ABOUT US </span> <br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivams,loborti interdum arcu. Fusce suscipit turpis. Cras quam sapienx,
+                                scelerisque, ac-sce-lerisque sit amet, vehicula non quam. Fuscei
+                                posuere nisi libero in elementum eros commodo sit amet. Proin
+                                eget mi maximus, dignissim erat ut, in lacinia arcus.
+                            </P> 
+                            <P class="mt-2 text-right" style="font-size:20px;">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivams,loborti interdum arcu. Fusce suscipit turpis. Cras quam sapienx,
+                                scelerisque, ac-sce-lerisque sit amet, vehicula non quam. Fuscei
+                                posuere nisi libero in elementum eros commodo sit amet. Proin
+                                eget mi maximus, dignissim erat ut, in lacinia arcus. 
+                            </P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="amenities">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-4 mt-3">
+                        <ul class="items text-right">
+                            <li>Brand new luxury Blankets </li>
+                            <li>Water Bottles</li>
+                            <li>Tissue Papers</li>
+                            <li>Live GPS Tracking</li>
+                            <li>Emergency Exits</li>
+                            <li>Fire Extinguisher</li>
+                            <li>Mobile Charger</li>
+                            <li>Reading Light</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 mt-3">
+                        <h1 class="title"> AMENITIES </h1>
+                        <div class="amimage">
+
+                        </div>                       
+                        <div class="am">
+                            <div class="am1"> 
+                                <img src="assets/images/a1.png">
+                            </div>
+                            <div class="am2"> 
+                                <img src="assets/images/a2.png">
+                            </div>
+                            <div class="am3"> 
+                                <img src="assets/images/a3.png">
+                            </div>
+                            <div class="am4"> 
+                                <img src="assets/images/a4.png">
+                            </div>
+                            <div class="am5"> 
+                                <img src="assets/images/a5.png">
+                            </div>
+                            <div class="am6"> 
+                                <img src="assets/images/a6.png">
+                            </div>
+                            <div class="am7"> 
+                                <img src="assets/images/a7.png">
+                            </div>
+                            <div class="am8"> 
+                                <img src="assets/images/a8.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="routes py-3">
+            <div class="container-fluid">
+                <h1 class="text-center py-2"> POPULAR ROUTES </h1>
+                <div class="row text-center">
+                    <div class="col-lg-4">
+                        <img src="assets/images/r1.png" class="img-responsive img-fluid float-left">
+                        <div class="ru1 text-center">
+                            <h5> Gulbarga </h5>
+                            <img src="assets/images/swap1.png">
+                            <h5> Bangalore </h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 ">
+                        <img src="assets/images/r1.png" class="img-responsive img-fluid">
+                        <div class="ru2 text-center">
+                            <h5> Gulbarga </h5>
+                            <img src="assets/images/swap1.png">
+                            <h5> Belgaum  </h5>
+                        </div>
+                        <div class="col-lg-12 text-center">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                </div>
+                                <div class="col-lg-4 text-center">
+                                    <div class="row">
+                                        <div class="dots ml-3">
+
+                                        </div>
+                                        <div class="dots1 ml-1">
+
+                                        </div>
+                                        <div class="dots1 ml-1">
+
+                                        </div>
+                                        <div class="dots1 ml-1">
+
+                                        </div>
+                                        <div class="dots1 ml-1">
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="assets/images/r1.png" class="img-responsive img-fluid float-right">
+                        <div class="ru3 text-center">
+                            <h5> Bangalore </h5>
+                            <img src="assets/images/swap1.png">
+                            <h5> Gulbarga </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="con">
+                    <div class="row">
+                        <div class="col-lg-1"></div>
+                        <div class="col-lg-10">
+                            <div class="row text-center mt-4">
+                                <div class="col-lg-4 text-center float-left">
+                                    <img src="assets/images/ph.png">
+                                    <h6 class="mt-2" style="font-size:15px;"> CONTACT </h6>
+                                    <P style="font-size:14px;"> 082962 74414. 082962 74415 </P>
+                                </div>
+                                <div class="col-lg-4 text-center">
+                                    <img src="assets/images/loc.png">
+                                    <h6 class="mt-2" style="font-size:15px;"> ADDRESS </h6>
+                                    <P style="font-size:14px;"> GF-33, Unity Zone Complex, Beside S.B Patil Pump,
+                                        Nehrugunj, Gulbarga. </P>
+                                </div>
+                                <div class="col-lg-4 text-center">
+                                    <img src="assets/images/ph.png">
+                                    <h6 class="mt-2" style="font-size:15px;"> CONTACT </h6>
+                                    <P style="font-size:14px;"> 99456 82448.  94499 06606 </P>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-1"></div>
+                </div>
+                <div class="row pt-3 mt-5" style="background-color:#870002;">
+                    <div class="col-lg-12 text-center" >
+                        <a href="#" style="color:white;"> Schedules  | </a>    <a href="#" style="color:white;">FAQ |</a>     <a href="#" style="color:white;">Terms & Conditions |</a>     <a href="#" style="color:white;">Feedback | </a>   <a href="#" style="color:white;">Contact | </a> <a href="#" style="color:white;">Boarding Places </a> <br> 
+                        <p style="color:white;"> Copy Right &#169 2017 Designed & Maintained by : Ezee Info Solutions </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>            
+
+    <script>
+        $('.bxslider').bxSlider({
+            auto: true,
+            autoControls: true,
+            stopAutoOnClick: true,
+            pager: true,
+        });
+    </script>
+    <script src="asset/js/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true
+        });
+    </script>
+</body>
+</html>

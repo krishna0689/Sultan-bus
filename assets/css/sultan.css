@@ -1,0 +1,425 @@
+@media (max-width: 992px)
+{
+    .bxslider
+    {
+        display: none;
+    }
+    .logo
+    {
+        position: static !important;    
+    }
+    .search
+    {
+        position: static !important; 
+
+    }
+    .card
+    {
+        top:0px !important;    
+    }
+    .am
+    {
+        background-color: #870002;    
+    }
+    .amimage
+    {
+        display: none;
+    }
+    .am1
+    {
+        position:static !important;
+        margin-bottom:28px;
+        margin-left: auto;
+        margin-right:auto;
+        text-align: center;
+        padding:10px 10px;
+    }
+    .am2
+    {
+        position:static !important;
+        margin-bottom:28px;
+        margin-left: auto;
+        margin-right:auto;
+        text-align: center;
+        padding:10px 10px;
+    }
+    .am3
+    {
+        position:static !important;
+        margin-bottom:28px;
+        margin-left: auto;
+        margin-right:auto;
+        text-align: center;
+        padding:10px 10px;
+    }
+    .am4
+    {
+        position:static !important;
+        margin-bottom:28px;
+        margin-left: auto;
+        margin-right:auto;
+        text-align: center;
+        padding:10px 10px;
+    }
+    .am5
+    {
+        position:static !important;
+        margin-bottom:28px;
+        margin-left: auto;
+        margin-right:auto;
+        text-align: center;
+        padding:10px 10px;
+    }
+    .am6
+    {
+        position:static !important;
+        margin-bottom:28px;
+        margin-left: auto;
+        margin-right:auto;
+        text-align: center;
+        padding:10px 10px;
+    }
+    .am7
+    {
+        position:static !important;
+        margin-bottom:28px;
+        margin-left: auto;
+        margin-right:auto;
+        text-align: center;
+        padding:10px 10px;
+    }
+    .am8
+    {
+        position:static !important;
+        margin-bottom:28px;
+        margin-left: auto;
+        margin-right:auto;
+        text-align: center;
+        padding:10px 10px;
+    }
+
+    .title
+    {
+        position: static !important;
+    }
+    .fb
+    {
+        display: none;
+    }
+    .bx-controls
+    {
+        display: none;
+    }
+    .ru1
+    {
+        position:static !important;
+    }
+    .ru2
+    {
+        position:static !important;
+    }
+    .ru3
+    {
+        position:static !important;
+    }
+    .dots
+    {
+        display:none;    
+    }
+    .dots1
+    {
+        display:none;    
+    }
+    #cb
+    {
+
+        background: url('../images/cb.png');
+        height: 370px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 75%;
+        padding-top: 15px;
+        padding-left:10px;
+        padding-right:10px;
+        padding-bottom: 10px;
+        margin-top:10px;
+    }
+}
+
+@media (min-width: 992px)
+{
+    .aboutus
+    {
+        background: url('../images/aboutbus.png');
+        height:500px;
+        background-repeat: no-repeat;
+    }
+    .amimage
+    {
+        background: url('../images/amimage.png');
+        height:480px;
+        background-repeat: no-repeat;
+    }
+    #contact
+    {
+        background: url('../images/ft.png');
+        height:300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .bx-controls
+    {
+        display: none;
+    }
+    .color
+    {
+        background-color:maroon;
+    }
+    #cb
+    {
+        background: url('../images/cb.png');
+        height: 370px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 21%;
+        padding-top: 15px;
+        padding-left:10px;
+        padding-right:10px;
+        padding-bottom: 10px;
+    }
+}
+.navbar
+{
+    z-index: 100;    
+}
+
+.shape
+{
+    border-bottom: 50px solid orange;
+    border-left: 50px solid transparent;
+    height:0;
+    width: 100%;
+    vertical-align: middle;
+    font-size:17px;
+}
+.back
+{
+    background-color: #ededed;
+    color:black;
+}
+.login
+{
+    color:black;
+    font-size:16px;
+}
+.phone
+{
+    font-size:16px;    
+}
+.navbar
+{
+    z-index: 100;
+    margin-right:10px;   
+}
+.logo
+{
+    position: absolute;
+    top: -47px;
+    left: 131px;
+    z-index: 100;
+    width: 49%;
+}
+.shape1
+{
+    border-radius:100px 0px 0px 100px;
+    background: #870002;
+    padding: 12px; 
+    width: 100%;
+    height:auto;
+    font-size:20px;
+}
+
+
+.search
+{
+    position: absolute;
+    top: 222px;
+    width: 369px;
+    right: 10%;
+    height: 364px;
+    z-index: 100;
+    margin: auto;
+}
+
+.card
+{
+    margin: auto;
+    width: 90%;
+    padding-left: 10px !important;
+    padding-bottom: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 0px !important;
+    align-items: center;
+    position: absolute;
+    top: -36px;
+    height: auto;
+}
+
+.cal
+{
+    margin-top: -30px;
+    margin-right: 10px;  
+    color:#000;
+}
+
+.btn
+{
+    background-color: #870002;
+    color:white;
+}
+.shape3
+{
+    width:100%;
+    height:20px;
+    background-color: #870002;
+}
+
+.name
+{
+    font-size:50px;
+    font-weight: 500;
+}
+.items
+{
+    list-style: none;
+    font-size:25px;
+    line-height: 58px;
+}
+.am1
+{
+    position: absolute;
+    top: 16px;
+    right: 250px;
+    z-index: 100;
+}
+
+.am2
+{
+    position: absolute;
+    top: 54px;
+    right: 151px;
+    z-index: 100;
+}
+
+.am3
+{
+    position: absolute;
+    top: 148px;
+    right: 83px;
+    z-index: 100;
+}
+
+.am4
+{
+    position: absolute;
+    top: 262px;
+    right: 90px;
+    z-index: 100;
+}
+
+.am5
+{
+    position: absolute;
+    top: 353px;
+    right: 149px;
+    z-index: 100;
+}
+
+.am6
+{
+    position: absolute;
+    top: 380px;
+    right: 259px;
+    z-index: 100;
+}
+
+.am7
+{
+    position: absolute;
+    top: 356px;
+    right: 371px;
+    z-index: 100;
+}
+
+.am8
+{
+    position: absolute;
+    top: 257px;
+    right: 430px;
+    z-index: 100;
+}
+.title
+{
+    position: absolute;
+    top: 168px;
+    left: 50px;    
+}
+
+.routes
+{
+    background-color: #eafff4;    
+}
+
+.ru1
+{
+    position: absolute;
+    top: 230px;
+    right: 195px;
+}
+.ru2
+{
+    position: absolute;
+    top: 230px;
+    right: 195px;
+}
+.ru3
+{
+    position: absolute;
+    top: 230px;
+    right: 175px;
+}
+
+.dots
+{
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #870002;
+}
+.dots1
+{
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #870002;
+    opacity: 60%;
+}
+.contact
+{
+    background-color: #870002;
+    color:white;
+}
+#select
+{
+    border-radius: 50px;
+    border: 3px solid;
+    border-color: maroon;    
+}
+.round
+{
+    border-radius: 50px;
+    border: 3px solid;
+    border-color: maroon; 
+}
+
+
