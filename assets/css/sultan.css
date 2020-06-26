@@ -1,9 +1,5 @@
 @media (max-width: 992px)
 {
-    .bxslider
-    {
-        display: none;
-    }
     .logo
     {
         position: static !important;    
@@ -16,10 +12,6 @@
     .card
     {
         top:0px !important;    
-    }
-    .am
-    {
-        background-color: #870002;    
     }
     .amimage
     {
@@ -132,17 +124,88 @@
     }
     #cb
     {
-
-        background: url('../images/cb.png');
-        height: 370px;
+        background: url(../images/cb.png);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 75%;
-        padding-top: 15px;
-        padding-left:10px;
-        padding-right:10px;
-        padding-bottom: 10px;
-        margin-top:10px;
+        width: 30%;
+        margin: auto;
+        padding-top: 20px;
+    }
+
+    .rshape
+    {
+        position: static !important;    
+    }
+
+    .rshape1
+    {
+        position: static !important;    
+    }
+
+    .rshape2
+    {
+        position: static !important;    
+    }
+
+    .rshape3
+    {
+        position: static !important;    
+    }
+
+    .rshape4
+    {
+        position: static !important;    
+    }
+
+    .rshape5
+    {
+        position: static !important;  
+
+    }
+    .rshape6
+    {
+        position: static !important;    
+    }
+
+    .rshape7
+    {
+        position: static !important;    
+    }
+    .am
+    {
+        text-align: -webkit-center;    
+    }
+    
+    .items
+    {
+    display: none;    
+    }
+}
+
+
+@media (max-width: 360px)
+{
+    #cb
+    {
+        background: url(../images/cb.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 70%;
+        margin: auto;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 1024px)
+{
+    #cb
+    {
+        background: url(../images/cb.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: auto;
+        padding-top: 20px;
+        top:169px;
     }
 }
 
@@ -156,7 +219,7 @@
     }
     .amimage
     {
-        background: url('../images/amimage.png');
+        background: url('../images/amimage1.png');
         height:480px;
         background-repeat: no-repeat;
     }
@@ -178,14 +241,11 @@
     #cb
     {
         background: url('../images/cb.png');
-        height: 370px;
         background-repeat: no-repeat;
         background-size: cover;
-        width: 21%;
-        padding-top: 15px;
-        padding-left:10px;
-        padding-right:10px;
-        padding-bottom: 10px;
+        width: 20%;
+        margin:auto;
+        padding-top:20px;
     }
 }
 .navbar
@@ -193,15 +253,6 @@
     z-index: 100;    
 }
 
-.shape
-{
-    border-bottom: 50px solid orange;
-    border-left: 50px solid transparent;
-    height:0;
-    width: 100%;
-    vertical-align: middle;
-    font-size:17px;
-}
 .back
 {
     background-color: #ededed;
@@ -239,7 +290,6 @@
     font-size:20px;
 }
 
-
 .search
 {
     position: absolute;
@@ -251,24 +301,12 @@
     margin: auto;
 }
 
-.card
-{
-    margin: auto;
-    width: 90%;
-    padding-left: 10px !important;
-    padding-bottom: 10px !important;
-    padding-right: 10px !important;
-    padding-top: 0px !important;
-    align-items: center;
-    position: absolute;
-    top: -36px;
-    height: auto;
-}
+
 
 .cal
 {
     margin-top: -30px;
-    margin-right: 10px;  
+    margin-right:23px;  
     color:#000;
 }
 
@@ -299,63 +337,63 @@
 {
     position: absolute;
     top: 16px;
-    right: 250px;
+    right: 21px;
     z-index: 100;
 }
 
 .am2
 {
     position: absolute;
-    top: 54px;
-    right: 151px;
+    top: 19px;
+    right: 27px;
     z-index: 100;
 }
 
 .am3
 {
     position: absolute;
-    top: 148px;
-    right: 83px;
+    top: 22px;
+    right: 26px;
     z-index: 100;
 }
 
 .am4
 {
     position: absolute;
-    top: 262px;
-    right: 90px;
+    top: 24px;
+    right: 33px;
     z-index: 100;
 }
 
 .am5
 {
     position: absolute;
-    top: 353px;
-    right: 149px;
+    top: 23px;
+    right: 25px;
     z-index: 100;
 }
 
 .am6
 {
     position: absolute;
-    top: 380px;
-    right: 259px;
+    top: 10px;
+    right: 29px;
     z-index: 100;
 }
 
 .am7
 {
     position: absolute;
-    top: 356px;
-    right: 371px;
+    top: 26px;
+    right: 31px;
     z-index: 100;
 }
 
 .am8
 {
     position: absolute;
-    top: 257px;
-    right: 430px;
+    top: 20px;
+    right: 24px;
     z-index: 100;
 }
 .title
@@ -421,5 +459,103 @@
     border: 3px solid;
     border-color: maroon; 
 }
+.font1
+{
+    width:100%;
+}
+
+.rshape
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: maroon;
+    position: absolute;
+    top: -3px;
+    right: 230px;
+    z-index:100;
+}
+.rshape1
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: maroon;
+    position: absolute;
+    top: 35px;
+    right: 120px;
+    z-index: 100;
+}
+
+.rshape2
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: maroon;
+    position: absolute;
+    top: 126px;
+    right: 54px;
+    z-index: 100;
+}
+
+.rshape3
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: maroon;
+    position: absolute;
+    top: 240px;
+    right: 58px;
+    z-index: 100;
+}
+.rshape4
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: maroon;
+    position: absolute;
+    top: 322px;
+    right: 128px;
+    z-index: 100;
+}
+
+.rshape5
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: maroon;
+    position: absolute;
+    top: 363px;
+    right: 231px;
+    z-index: 100;
+}
+.rshape6
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: maroon;
+    position: absolute;
+    top: 330px;
+    right: 339px;
+    z-index: 100;
+}
+
+.rshape7
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: maroon;
+    position: absolute;
+    top: 236px;
+    right: 409px;
+    z-index: 100;
+}
+
 
 
