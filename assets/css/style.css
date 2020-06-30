@@ -1,8 +1,361 @@
+
+/****** Header *****/
+
+.header-right ul li
+{
+    display: inline-block;
+}
+
+.top-header-color
+{
+    background-color: #ededed;
+    color:black;
+}
+
+.header-right ul a:hover
+{
+    background-color:black;
+    padding:5px;
+    color:white;
+    text-decoration: none;
+}
+
+.login
+{
+    color:black;
+    font-size:16px;
+}
+.phone
+{
+    font-size:15px;    
+}
+
+.logo
+{
+    position: absolute;
+    top: -37px;
+    left: 129px;
+    z-index: 100;
+    width: 51%;
+}
+
+.bottom-header-shape
+{
+    border-radius:100px 0px 0px 100px;
+    background: #870002;
+    padding: 12px; 
+    width: 100%;
+    height:auto;
+    font-size:20px;
+}
+
+.navbar ul
+{
+    z-index: 100;
+    list-style: none;
+    margin-top: 21px;
+}
+
+.nav-link
+{
+    margin-left:41px;
+    color:white;    
+}
+
+.navbar a:hover
+{
+    background-color: #e3af04;   
+    text-decoration: none;
+    padding: 10px;
+    color:maroon;
+    border-radius: 50px;
+}
+
+
+/****** Booking Section *****/
+
+.book-div
+{
+    position: absolute;
+    top: 222px;
+    width: 369px;
+    right: 10%;
+    height: 364px;
+    z-index: 100;
+    margin: auto;
+}
+.book-title
+{
+    text-align: center;
+    margin-top: 9px;
+    font-size: 25px;
+    margin-bottom:10px;
+
+}
+
+.book-inner
+{
+    width:100%;
+}
+
+.header-right,.header-left
+{
+    padding:3px;
+}
+
+.swapicon
+{
+    position: absolute;
+    right: 30px;
+    top: 89px;
+    z-index: 100;   
+}
+
+.btn a,a:hover
+{
+    background-color: #e3af04; 
+    border-radius: 50px;
+}
+
+#from,#to
+{
+    border-radius: 50px;
+    border: 3px solid;
+    border-color: maroon;
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+#srch_date , #return_date
+{
+    border-radius: 50px;
+    border: 3px solid;
+    border-color: maroon;
+    float:right;
+    margin-top:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+
+.cal
+{
+    margin-top: -34px;
+    margin-right:23px;  
+    color:#000;
+    float: right;
+}
+
+.btn
+{
+    background-color: #870002;
+    color:white;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+/**** ABOUT US ****/
+
+.about-title
+{
+    font-size:50px;
+    font-weight: 500;
+}
+
+.about-text
+{
+    font-size:20px;   
+    text-align: right;
+    margin-top:90px;
+}
+
+/****** AMENITIES ******/
+
+.items
+{
+    list-style: none;
+    font-size:25px;
+    line-height: 58px;
+}
+
+.title
+{
+    top: 168px;
+    left: 50px; 
+    text-align: center;
+}
+
+.rshape1,.rshape2,.rshape3,.rshape4,.rshape5,.rshape6,.rshape7,.rshape8
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: maroon;
+    position: absolute;
+    z-index:100;
+}
+.rshape1
+{
+    top: 1px;
+    right: 245px;
+
+}
+.rshape2
+{
+    top: 41px;
+    right: 135px;
+}
+
+.rshape3
+{
+    top: 126px;
+    right: 72px;
+}
+
+.rshape4
+{
+    top: 232px;
+    right: 70px;
+}
+.rshape5
+{
+    top: 328px;
+    right: 135px;
+}
+
+.rshape6
+{
+    top: 365px;
+    right: 242px;
+}
+.rshape7
+{
+    top: 331px;
+    right: 351px;
+}
+
+.rshape8
+{
+    top: 236px;
+    right: 424px;
+}
+
+.am1
+{
+    top: 16px;
+    right: 21px;   
+}
+.am2
+{
+    top: 19px;
+    right: 27px;
+}
+
+.am3
+{
+    top: 22px;
+    right: 26px;
+}
+
+.am4
+{
+    top: 24px;
+    right: 33px;
+}
+
+.am5
+{
+    top: 23px;
+    right: 25px;
+}
+
+.am6
+{
+    top: 10px;
+    right: 29px;
+}
+
+.am7
+{
+    top: 26px;
+    right: 31px;
+}
+
+.am8
+{
+    top: 20px;
+    right: 24px;
+}
+
+/**** ROUTES ****/
+
+.ru1, .ru2,.ru3,.title,.am1,.am2,.am3,.am4,.am5,.am6,.am7,.am8
+{
+    position: absolute;
+    z-index:100;
+}
+
+.routes
+{
+    background-color: #eafff4;
+}
+
+.ru1,.ru2,.ru3
+{
+    top: 16em;
+    right: 15em;
+
+}
+
+/**** FOOTER ****/
+
+.footcolor,.linkcolor
+{
+    color: white;
+    margin-top:82px;
+    text-align: center;
+} 
+.foottext
+{
+    font-size:15px;
+    text-align: center;
+    margin-top:35px;
+}
+
+.useful-links li 
+{
+    display: inline-block;
+    list-style-type: none;
+    border-right: 2px solid #fff;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 18px;
+    margin-top:4em;
+}
+.useful-links li a{ 
+    color: #fff;
+    text-decoration: none;
+}
+
+.white
+{
+    color:white;    
+}
+
+#foot-links ul a:hover
+{
+    background-color:#e3af04; 
+    padding:5px;
+}
+
+/***** Media Code ****/
+
 @media (max-width: 992px)
 {
     .logo, .book-div, .ru1, .ru2,.ru3,.title,.rshape1,.rshape2,.rshape3,.rshape4,.rshape5,.rshape6,.rshape7,.rshape8
     {
-        position: static !important;
+        position:static !important;
     }
     .amimage, .bx-controls,.items
     {
@@ -75,13 +428,13 @@
 {
     .aboutus
     {
-        background: url('../images/aboutbus.png');
+        background: url('../images/aboutus.png');
         height:500px;
         background-repeat: no-repeat;
     }
     .amimage
     {
-        background: url('../images/amimage1.png');
+        background: url('../images/amimage.png');
         height:480px;
         background-repeat: no-repeat;
     }
@@ -105,305 +458,4 @@
         margin:auto;
         padding-top:20px;
     }
-}
-.top-header-color
-{
-    background-color: #ededed;
-    color:black;
-}
-.login
-{
-    color:black;
-    font-size:16px;
-}
-.phone
-{
-    font-size:15px;    
-}
-.navbar ul
-{
-    z-index: 100;
-    margin-right:0px;
-    list-style: none;
-    margin-top:20px;
-}
-.logo
-{
-    position: absolute;
-    top: -28px;
-    left: 146px;
-    z-index: 100;
-    width: 49%;
-}
-.top-header-shape
-{
-    border-radius:100px 0px 0px 100px;
-    background: #870002;
-    padding: 12px; 
-    width: 100%;
-    height:auto;
-    font-size:20px;
-}
-
-.book-div
-{
-    position: absolute;
-    top: 222px;
-    width: 369px;
-    right: 10%;
-    height: 364px;
-    z-index: 100;
-    margin: auto;
-}
-.book-title
-{
-    text-align: center;
-    margin-top: 9px;
-    font-size: 25px;
-
-}
-.cal
-{
-    margin-top: -25px;
-    margin-right:23px;  
-    color:#000;
-    float: right;
-}
-
-.btn
-{
-    background-color: #870002;
-    color:white;
-    margin-top: 10px;
-}
-
-.shape3
-{
-    width:100%;
-    height:20px;
-    background-color: #870002;
-}
-
-.name
-{
-    font-size:50px;
-    font-weight: 500;
-}
-
-.items
-{
-    list-style: none;
-    font-size:25px;
-    line-height: 58px;
-}
-.ru1, .ru2,.ru3,.title,.rshape1,.rshape2,.rshape3,.rshape4,.rshape5,.rshape6,.rshape7,.rshape8,
-.am1,.am2,.am3,.am4,.am5,.am6,.am7,.am8
-{
-    position: absolute;
-    z-index:100;
-}
-.am1
-{
-    top: 16px;
-    right: 21px;   
-}
-.am2
-{
-    top: 19px;
-    right: 27px;
-}
-
-.am3
-{
-    top: 22px;
-    right: 26px;
-}
-
-.am4
-{
-    top: 24px;
-    right: 33px;
-}
-
-.am5
-{
-    top: 23px;
-    right: 25px;
-}
-
-.am6
-{
-    top: 10px;
-    right: 29px;
-}
-
-.am7
-{
-    top: 26px;
-    right: 31px;
-}
-
-.am8
-{
-    top: 20px;
-    right: 24px;
-}
-.title
-{
-    top: 168px;
-    left: 50px; 
-    text-align: center;
-}
-
-.routes
-{
-    background-color: #eafff4;
-}
-
-.ru1,.ru2,.ru3
-{
-    top: 225px;
-    right: 210px;
-}
-.contact
-{
-    background-color: #870002;
-    color:white;
-}
-#from,#to
-{
-    border-radius: 50px;
-    border: 3px solid;
-    border-color: maroon;
-    width: 100%;
-    padding: 5px;
-    margin-top: 5px;
-    margin-bottom: 10px;    
-}
-#datepicker,#datepicker
-{
-    border-radius: 50px;
-    border: 3px solid;
-    border-color: maroon;
-    float:right;
-    margin-top:10px;
-}
-.round
-{
-    border-radius: 50px;
-    border: 3px solid;
-    border-color: maroon; 
-}
-.book-inner
-{
-    width:100%;
-}
-.rshape1,.rshape2,.rshape3,.rshape4,.rshape5,.rshape6,.rshape7,.rshape8
-{
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
-    background-color: maroon;
-    position: absolute;
-    z-index:100;
-}
-.rshape1
-{
-    top: -3px;
-    right: 230px;
-
-}
-.rshape2
-{
-    top: 35px;
-    right: 120px;
-}
-
-.rshape3
-{
-    top: 126px;
-    right: 54px;
-}
-
-.rshape4
-{
-    top: 240px;
-    right: 58px;
-}
-.rshape5
-{
-    top: 322px;
-    right: 128px;
-}
-
-.rshape6
-{
-    top: 363px;
-    right: 231px;
-}
-.rshape7
-{
-    top: 330px;
-    right: 339px;
-}
-
-.rshape8
-{
-    top: 236px;
-    right: 409px;
-}
-
-.nav-link
-{
-    margin-left:30px;
-    color:white;    
-}
-
-.text
-{
-    font-size:20px;   
-    text-align: right;
-    margin-top:90px;
-}
-
-.footcolor,.linkcolor
-{
-    color: white;
-    margin-top:82px;
-    text-align: center;
-} 
-.foottext
-{
-    font-size:15px;
-    text-align: center;
-    margin-top:35px;
-}
-.header-right,.header-left
-{
-    padding:5px;
-}
-
-.useful-links li {
-    display: inline-block;
-    list-style-type: none;
-    border-right: 2px solid #fff;
-    padding-left: 1em;
-    padding-right: 1em;
-    font-size: 18px;
-    margin-top:4em;
-}
-.useful-links li a{ 
-    color: #fff;
-}
-.useful-links li:last-child{
-    border-right: none;
-}
-.white
-{
-    color:white;    
-}
-
-.swapicon
-{
-    float:right;    
 }
